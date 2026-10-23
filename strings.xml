@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ReelBlocker</string>
+    <string name="accessibility_desc">Block Reels on Instagram and Facebook automatically.</string>
+</resources>

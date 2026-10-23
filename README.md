@@ -1,9 +1,8 @@
-# Reel Blocker
+# ReelBlocker Android App
 
-Local DNS-filtering VPN for Android (no external server). Blocks selected
-Facebook/Instagram media hosts by answering their DNS lookups with 0.0.0.0.
+Android Accessibility Service ব্যবহার করে Facebook এবং Instagram Reels ব্লক করার একটি লাইটওয়েট অ্যাপ।
 
-Build: push to GitHub -> Actions -> "Build APK" -> download artifact `ReelBlocker-debug-apk`.
-
-Tuning: run `adb logcat -s ReelBlocker` while opening a reel to see which
-hostnames are ALLOWed/BLOCKed, then edit `isDomainBlocked()`.
+### ফিচার:
+- Instagram Reels শনাক্ত করে স্বয়ংক্রিয়ভাবে ব্যাক (Back) নিয়ে আসে।
+- Facebook Reels ও ভিডিও প্লেয়ার ব্লক করে।
+- GitHub Actions দিয়ে অটোমেটিক APK তৈরি হয়।
